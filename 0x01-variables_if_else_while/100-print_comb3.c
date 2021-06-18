@@ -1,19 +1,23 @@
 #include <stdio.h>
-/** 
- * main - Entry point
+/**
+ * main
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int k;
-for (k = '0'; k <= '9'; k++)
+int l,k;
+for (l = 0; l <= 9; l++)
 {
-putchar(k);
-if (k != '9')
+for(k = l + 1; k <= 9; k ++)
+{
+putchar(l + '0');
+putchar(k + '0');
+if (l < 8)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
