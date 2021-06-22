@@ -1,8 +1,9 @@
 #include "holberton.h"
 /**                                                                             
- * main - Entry point
+ * print_alphabet - function
  *
- * Return: Always 0 (Success)
+ *
+ * Return - success
  */
 void print_alphabet(void)
 {
