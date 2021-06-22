@@ -1,2 +1,14 @@
 int _putchar(char c);
 void print_alphabet(void);
+void print_alphabet_x10(void);
+void fibonaccia(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int jack_bauer(void);
+int print_last_digit(int);
+void print_times_table(int n);
+void times_table(void);
+void add(int a, int b);
+void print_to_98(int n);
