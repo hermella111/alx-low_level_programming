@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * Print_sign - func
+ * print_sign - func
  * @n: a param
  * Return: 0
  */
