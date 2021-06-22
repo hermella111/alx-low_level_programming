@@ -1,25 +1,18 @@
 #include "holberton.h"
+int _putchar(char c);
+/**
+ * main - check the code for alx School students.
+ *
+ * Return: Always 0.
+ */
 int main(void)
+{ 
+char cat[9] = "Holberton";
+int i;
+for (i = 0; i <= 8; i++)
 {
-char H, o, l, b, e, r, t, z, n;
-H = 'H';
-o = 'o';
-l = 'l';
-b = 'b';
-e = 'e';
-r = 'r';
-t = 't';
-z = 'o';
-n = 'n';
-_putchar(H);
-_putchar(o); 
-_putchar(l); 
-_putchar(b); 
-_putchar(e); 
-_putchar(r); 
-_putchar(t); 
-_putchar(z); 
-_putchar(n);
+_putchar(cat[i]);
+}
 _putchar('\n');
 return (0);
 }
