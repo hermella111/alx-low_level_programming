@@ -19,7 +19,7 @@ putchar(b);
 putchar(e); 
 putchar(r); 
 putchar(t); 
-putchar(o); 
+putchar(z); 
 putchar(n);
 putchar('\n');
 return (0);
