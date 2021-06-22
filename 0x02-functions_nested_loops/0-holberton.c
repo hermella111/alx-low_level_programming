@@ -6,7 +6,7 @@ int _putchar(char c);
  * Return: Always 0.
  */
 int main(void)
-{ 
+{
 char cat[9] = "Holberton";
 int i;
 for (i = 0; i <= 8; i++)
