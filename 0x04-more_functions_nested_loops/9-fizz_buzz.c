@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints numbers 1 to 100.
+ * main - prints numbers 1 to 100 fizz for multiple of 3 and buzz for 5.
  *
- * Return: 0.
+ * Return: Always 0
  */
 int main(void)
 {

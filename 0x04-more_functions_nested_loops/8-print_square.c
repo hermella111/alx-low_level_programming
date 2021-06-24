@@ -1,29 +1,23 @@
 #include "holberton.h"
-/**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-print_square(2);
-print_square(10);
-print_square(0);
-return (0);
-}
+#include <stdio.h>
 /**
  * print_square - a function that prints square.
- * @size: int representing number
+ * @size: int representing number of line #
+ * Return: void.
  */
 void print_square(int size)
 {
-int size, k;
+int i, j;
 for (i = 0; i <= size; i++)
 {
-_putchar('#');
-for (k = i; k <=i; k++)
+for (j = 0; j < size; j++)
 {
 _putchar('#');
 }
 _putchar('\n');
+}
+if (size <= 0)
+{
+_putchar('\n');
+}
 }

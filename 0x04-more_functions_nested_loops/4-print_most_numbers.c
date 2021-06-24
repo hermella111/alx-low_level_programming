@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * print_most_numbers - prints numbers except 2 and 4.
- * @c: int representing numbers
+ * 
+ * Return: void.
  */
 void print_most_numbers(void)
 {
