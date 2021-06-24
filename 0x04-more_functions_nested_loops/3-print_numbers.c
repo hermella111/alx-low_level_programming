@@ -1,14 +1,5 @@
 #include "holberton.h"
-/**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-print_numbers();
-return (0);
-}
+#include <stdio.h>
 /**
  * print_numbers - prints numbers 0 to 9.
  * @k: int representing numbers 0 to 9.
