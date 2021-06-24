@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_numbers - prints numbers 0 to 9.
- * @k: int representing numbers 0 to 9.
+ * @c: is an int param.
  *
  * Return: 0.
  */
